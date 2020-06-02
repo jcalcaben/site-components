@@ -1,0 +1,26 @@
+{
+  "name": "devdocs-theme",
+  "version": "1.0.0",
+  "description": "A theme for devdocs sites",
+  "main": "index.js",
+  "author": "jcalcaben@gmail.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^2.22.15",
+    "react": "^16.13.1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.0.1"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
