@@ -1,0 +1,36 @@
+.root {
+  display: flex;
+  width: auto;
+  justify-self: right;
+  padding: 0px;
+  margin: 0px 3px;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+.iconButton {
+  background-color: var(--header-color);
+  color: var(--secondary);
+  border: none;
+  padding: 0px;
+  align-self: center;
+  justify-self: right;
+}
+
+.moreButton {
+  composes: iconButton;
+}
+
+.searchButton {
+  composes: iconButton;
+}
+
+.moreIcon {
+  composes: icon;
+}
+
+.searchIcon {
+  composes: icon;
+}

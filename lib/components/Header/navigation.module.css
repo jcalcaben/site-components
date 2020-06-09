@@ -1,0 +1,12 @@
+.root {
+  background-color: var(--header-color);
+  color: var(--secondary);
+  border: none;
+  padding: 0px;
+  align-self: center;
+  justify-self: left;
+}
+
+.icon {
+  vertical-align: middle;
+}

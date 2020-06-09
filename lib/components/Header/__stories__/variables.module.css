@@ -1,0 +1,9 @@
+.variables {
+    --header-color: #493A48;
+    --primary: #F7ECCD;
+    --secondary: #C9C9B0;
+}
+.root {
+    composes: variables;
+    color: var(--primary)
+}

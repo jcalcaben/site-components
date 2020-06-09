@@ -9,7 +9,10 @@
     "gatsby": "^2.22.15",
     "react": "^16.13.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@material-ui/core": "^4.10.1",
+    "@material-ui/icons": "^4.9.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
@@ -20,12 +23,20 @@
     "@storybook/react": "^5.3.19",
     "babel-jest": "^26.0.1",
     "babel-loader": "^8.1.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^26.0.1",
-    "react-test-renderer": "^16.13.1"
+    "react-test-renderer": "^16.13.1",
+    "storybook-css-modules-preset": "^1.0.2"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "test": "jest",
     "build-storybook": "build-storybook"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
   }
 }
