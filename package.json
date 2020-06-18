@@ -30,6 +30,8 @@
     "storybook-css-modules-preset": "^1.0.2"
   },
   "scripts": {
+    "prettier": "prettier --write lib",
+    "prettier:check": "prettier --check lib",
     "storybook": "start-storybook -p 6006",
     "test": "jest",
     "build-storybook": "build-storybook"
