@@ -1,7 +1,7 @@
 {
-  "name": "devdocs-theme",
+  "name": "jcalcaben/site-components",
   "version": "1.0.0",
-  "description": "A theme for devdocs sites",
+  "description": "A component library for websites",
   "main": "index.js",
   "author": "jcalcaben@gmail.com",
   "license": "MIT",
