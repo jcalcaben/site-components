@@ -7,6 +7,7 @@ exports[`render header 1`] = `
   <button
     className="root"
     onClick={[MockFunction Navigation click function]}
+    type="button"
   >
     <svg
       aria-hidden={true}
@@ -25,6 +26,7 @@ exports[`render header 1`] = `
     <button
       className="searchButton"
       onClick={[MockFunction Search click function]}
+      type="button"
     >
       <svg
         aria-hidden={true}
@@ -40,6 +42,7 @@ exports[`render header 1`] = `
     <button
       className="moreButton"
       onClick={[MockFunction Overflow click function]}
+      type="button"
     >
       <svg
         aria-hidden={true}
