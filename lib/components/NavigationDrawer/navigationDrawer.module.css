@@ -1,0 +1,11 @@
+.root {
+}
+
+.rootHidden {
+  composes: root;
+  display: none;
+}
+
+.rootActive {
+  composes: root;
+}
