@@ -1,4 +1,10 @@
 .root {
+    display: block;
+    height: 100vh;
+    width: 350px;
+    -moz-box-shadow:    3px 0px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 0px 5px 6px #ccc;
+    box-shadow:         3px 0px 5px 6px #ccc;
 }
 
 .rootHidden {
@@ -8,4 +14,10 @@
 
 .rootActive {
   composes: root;
+}
+
+.divider {
+    border-style: solid;
+    border-color: #ccc;
+    margin: .25em 0px;
 }
