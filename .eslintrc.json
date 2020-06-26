@@ -23,6 +23,7 @@
         "react/jsx-filename-extension": "off",
         "react/require-default-props": "off",
         "import/no-extraneous-dependencies": "off",
-        "react/jsx-props-no-spreading" : "off"
+        "react/jsx-props-no-spreading" : "off",
+        "react/forbid-prop-types": "off"
     }
 }
