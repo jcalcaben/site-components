@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`no url in parent 1`] = `
+Array [
+  Object {
+    "label": "Section-3",
+    "url": undefined,
+  },
+  Object {
+    "label": "Section-3-1",
+    "url": "section-3-1",
+  },
+]
+`;
+
+exports[`second level entry 1`] = `
+Array [
+  Object {
+    "label": "Section-2",
+    "url": "section-2",
+  },
+  Object {
+    "label": "Section-2-2",
+    "url": "section-2-2",
+  },
+]
+`;
+
+exports[`third level entry 1`] = `
+Array [
+  Object {
+    "label": "Section-2",
+    "url": "section-2",
+  },
+  Object {
+    "label": "Section-2-3",
+    "url": undefined,
+  },
+  Object {
+    "label": "Section-2-3-2",
+    "url": "section-2-3-2",
+  },
+]
+`;
+
+exports[`top level entry 1`] = `
+Array [
+  Object {
+    "label": "Section-1",
+    "url": "section-1",
+  },
+]
+`;
